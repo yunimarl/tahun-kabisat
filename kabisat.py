@@ -2,10 +2,10 @@ tahun = int(input())
 if (tahun % 4) == 0:
     if (tahun % 100) == 0:
         if (tahun % 400) == 0:
-            print ("Tahun Kabisat")
+            print ("Kabisat")
         else:
-            print ("Bukan Tahun Kabisat")
+            print ("Tidak habis dibagi 400 jadi Bukan Tahun Kabisat")
     else:
-        print ("Tahun Kabisat")
+        print ("Kabisat")
 else:
     print ("Bukan Tahun Kabisat")
